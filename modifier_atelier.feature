@@ -12,8 +12,7 @@ Fonctionnalité: US4 : Modifier un atelier
         le laboratoire "Inria"
 
         Scénario: Voir la liste des ateliers
-            Alors je vois un bouton "Mes ateliers"
-            Quand je clique sur ce bouton
+            Quand je clique sur le bouton "Mes ateliers"
             Alors je vois la liste de mes ateliers
             Et pour chaque atelier je vois un bouton "modifier"
 
@@ -49,10 +48,11 @@ Fonctionnalité: US4 : Modifier un atelier
         Scénario: Sauvegarder les modifications
             Étant donné que je suis sur le formulaire de
             modification d'un de mes ateliers
-            Et que j'ai modifié une ou plusieurs valeurs
+            Et que j'ai modifié la valeur du champ "Thème"
+            Et la valeur du champ "Description"
             Quand je clique sur "Sauvegarder"
             Alors ces modifications sont enregistrées
-            Et je vois la page de l'atlier mise à jour
+            Et je vois la page de l'atelier mise à jour
         
         Scénario: À partir de la page d'un atelier que je n'ai pas créé
             Étant donné que je suis sur la page d'un atelier
@@ -60,4 +60,3 @@ Fonctionnalité: US4 : Modifier un atelier
             Alors je ne vois pas de bouton "modifier"
         
 
-    
