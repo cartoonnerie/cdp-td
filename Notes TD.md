@@ -45,9 +45,6 @@ OUTILS
 - get_html(id_element)
 - html_to_list(id_element)
 - get_value(id_element_textarea)
-- get_value_db(id)
-- workshop_list_from_db(user)
-- db_to_object(db_record)
 
 EVENEMENT
 - on_click(id_element_html)
@@ -56,9 +53,7 @@ EVENEMENT
 RESULTAT
 - lists_equals(l1, l2)
 - exists(id_container_html, id_element_html)
-- objects_equals(o1, o2)
 - is_modifiable(id_element_textarea)
-- db_changed(db_record1, db_record2, fields)
 
 ## Q3
     setup_background(){
